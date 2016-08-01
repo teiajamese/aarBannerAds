@@ -1,0 +1,95 @@
+body {
+	margin:0;
+}
+
+a {
+    width: 336px;
+    height: 850px;
+    display: block;
+}
+
+.ad {
+    width: 336px;
+    height: 850px;
+    border: 1px solid #a7a7a7;
+    position: relative;
+    overflow: hidden;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.content {
+    font-family: 'Roboto Condensed', sans-serif;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    opacity: 0;
+}
+
+.content p {
+    color: #fff;
+    font-size: 37px;
+    text-align: center;
+    max-width: 100%;
+    margin: 60px auto 20px;
+    text-shadow: 0px 1px 5px rgba(0, 0, 0, .5);
+    line-height: 41px;
+}
+
+.content .btn {
+	background: #f8d007;
+    font-size: 25px;
+    padding: 6px 0;
+    width: 135px;
+    color: #3d3d3d;
+    text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, .5);
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.content .logo {
+    position: absolute;
+    bottom: 45px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 235px;
+    height: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+.house {
+	width: 336px;
+	height: 850px;
+	background: url('../img/1-house.png') no-repeat center;
+	background-size: 100%;
+}
+
+.door {
+	position: absolute;
+	top: 194px;
+    left: -3px;
+	right: 0;
+	margin: auto;
+}
+
+.train {
+    position: absolute;
+    top: 200px;
+    bottom: 0;
+    left: -50%;
+    right: -50%;
+    margin: auto;
+    z-index: -1;
+    width: 341px;
+    height: auto;
+}

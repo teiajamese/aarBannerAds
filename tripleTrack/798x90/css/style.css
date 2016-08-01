@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400);
+
+body{
+	margin:0px;
+}
+.ad{
+	width: 796px;
+    height: 88px;
+	border: 1px solid #a7a7a7;
+	position: relative;
+	overflow: hidden;  
+	background-image: -moz-linear-gradient( 90deg, rgb(127,166,192) 0%, rgb(21,98,146) 100%);
+ 	background-image: -webkit-linear-gradient( 90deg, rgb(127,166,192) 0%, rgb(21,98,146) 100%);
+  	background-image: -ms-linear-gradient( 90deg, rgb(127,166,192) 0%, rgb(21,98,146) 100%);
+}
+
+
+div.train1 img.train{
+    position: absolute;
+    left: 76%;
+    bottom: 0;
+}
+
+div.train2 img.train{
+    position: absolute;
+    left: 88%;
+    bottom: 0;
+}
+
+div.train3 img.train{
+    position: absolute;
+    left: 64%;
+    bottom: 0;
+}
+
+.content{
+	position: relative;
+	color: #fff;
+	font-family: 'Roboto Condensed', Arial;
+	font-size: 1.2em;
+	text-shadow: 0.707px 0.707px 5px rgba(0, 0, 0, 0.55);
+	text-align: center;
+	display: block;
+    width:65%;
+}
+.content p{
+    margin-bottom: 0px;
+    margin-top: 8px;
+    line-height: 44px;
+    padding-left: 15px;
+}
+.content p span{
+	display: none;
+}
+.content p.two{
+    text-align: left;
+    margin-left: 150px;
+}
+
+.cta{
+	position: relative;
+    width: 76%;
+    margin: auto;
+    margin-top: -4px;
+}
+.cta img{
+	width: 133px;
+
+}
+.cta p{
+	background: #fdd301;
+    width: 82px;
+    padding: 10px 0px;
+    font-size: 1.2em;
+    color: #3d3d3d;
+    margin-left: 48px;
+    font-family: 'Roboto Condensed', Arial;
+    text-shadow: 1.414px 1.414px 0px rgba(255, 255, 255, 0.25);
+    text-align: center;
+    float: left;
+    line-height: 10px;
+    margin-top: 0px;
+    margin-right: 15px;
+    box-shadow: 2.121px 2.121px 1px 0px rgba(0, 0, 0, 0.25);
+}
+a{
+	text-decoration: none;
+}

@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400);
+
+body{
+	margin:0px;
+}
+.ad{
+	width: 726px;
+    height: 88px;
+	border: 1px solid #a7a7a7;
+	position: relative;
+	overflow: hidden;  
+	background-image: -moz-linear-gradient( 90deg, rgb(127,166,192) 0%, rgb(21,98,146) 100%);
+ 	background-image: -webkit-linear-gradient( 90deg, rgb(127,166,192) 0%, rgb(21,98,146) 100%);
+  	background-image: -ms-linear-gradient( 90deg, rgb(127,166,192) 0%, rgb(21,98,146) 100%);
+}
+div.train1 img.train{
+    position: absolute;
+    left: 76%;
+    bottom: 0;
+}
+
+div.train2 img.train{
+    position: absolute;
+    left: 88%;
+    bottom: 0;
+}
+
+div.train3 img.train{
+    position: absolute;
+    left: 64%;
+    bottom: 0;
+}
+.content{
+	position: relative;
+	color: #fff;
+	font-family: 'Roboto Condensed', Arial;
+	font-size: 1.3em;
+	text-shadow: 0.707px 0.707px 5px rgba(0, 0, 0, 0.55);
+	text-align: left;
+	display: block;
+    width:82%;
+    padding-left: 16px;
+}
+.content p{
+    margin-bottom: 0px;
+    margin-top: 13px;
+    padding-left: 15px;
+    line-height: 28px;
+}
+.content p span{
+	display: none;
+}
+
+.cta{
+	position: relative;
+    width: 42%;
+    margin: auto;
+    margin-top: -26px;
+}
+.cta img{
+	width: 120px;
+
+}
+.cta p{
+	background: #fdd301;
+    width: 67px;
+    padding: 9px 0px;
+    font-size: 1em;
+    color: #3d3d3d;
+    font-family: 'Roboto Condensed', Arial;
+    text-shadow: 1.414px 1.414px 0px rgba(255, 255, 255, 0.25);
+    text-align: center;
+    float: left;
+    line-height: 10px;
+    margin: 0px 15px 0px 16px;
+    box-shadow: 2.121px 2.121px 1px 0px rgba(0, 0, 0, 0.25);
+}
+a{
+	text-decoration: none;
+}
